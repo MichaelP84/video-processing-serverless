@@ -1,0 +1,7 @@
+firebase_admin
+requests
+boto3
+opencv-python-headless
+ffmpeg-python
+torch
+torchmetrics
