@@ -48,7 +48,6 @@ def entry(file: dict):
     
     return {"key": key}
 
-# @app.function(image=vsgan_image, timeout=20000, gpu="A10G", cpu=16, memory=65536)
 @app.function(image=vsgan_image, timeout=20000, gpu="A10G")
 async def run_interpolation(key: str, job: Job):
     # Execute vspipe command
